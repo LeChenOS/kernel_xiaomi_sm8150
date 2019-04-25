@@ -765,6 +765,11 @@
 		};
 	};
 
+        keyreset {
+		compatible = "android,keyreset";
+		keys-down = <0x73 0x72>;
+	};
+
 	vendor: vendor {
 		#address-cells = <1>;
 		#size-cells = <1>;
